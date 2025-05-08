@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escola Moderna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2d6cdf;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background-color: #2247a2;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2d6cdf;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Escola Moderna</h1>
+    <p>Educação de qualidade para o futuro</p>
+  </header>
+  <nav>
+    <a href="#agenda">Agenda</a>
+    <a href="#comunicados">Comunicados</a>
+    <a href="#licoes">Lições</a>
+    <a href="#matricula">Matrícula</a>
+  </nav>  <section id="agenda">
+    <h2>Agenda Virtual</h2>
+    <ul>
+      <li>10/05 - Reunião com pais</li>
+      <li>15/05 - Prova de matemática</li>
+      <li>22/05 - Feira de ciências</li>
+    </ul>
+  </section>  <section id="comunicados">
+    <h2>Comunicados</h2>
+    <p>Estamos com matrículas abertas para o próximo semestre.</p>
+    <p>Use máscaras durante o período de aulas presenciais.</p>
+  </section>  <section id="licoes">
+    <h2>Confirmação de Lições</h2>
+    <form>
+      <input type="text" placeholder="Nome do aluno" required />
+      <textarea placeholder="Descreva a lição realizada" required></textarea>
+      <button type="submit">Confirmar</button>
+    </form>
+  </section>  <section id="matricula">
+    <h2>Formulário de Matrícula</h2>
+    <form>
+      <input type="text" placeholder="Nome completo" required />
+      <input type="email" placeholder="Email do responsável" required />
+      <input type="tel" placeholder="Telefone de contato" required />
+      <textarea placeholder="Informações adicionais"></textarea>
+      <button type="submit">Enviar Matrícula</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Escola Moderna. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
